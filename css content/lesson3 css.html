@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lesson1 css .css">
+</head>
+<body>
+        <!-- the Nav -->
+        <header class="header">
+            <img class="logo" src="../Our photos/White_logo.png" alt="logo">
+            <nav >
+                <ul class="nav_links">
+                    <li><a href="../2-Homepage/div-cards.html"><i class ="fa fa-home"></i> Home</a></li>
+                    <li><a href=""><i class="fa-solid fa-book" ></i> Courses</a></li>
+                    <li><a href="../3-About US/AboutUSPage.html"><i class="fa-regular fa-address-card"></i> About Us</a></li>
+                    <li><a href="../4-Contact us/project.html"><i class="fa-solid fa-phone-volume"></i> Contact</a></li>
+                </ul>
+            </nav>
+            <a href="../form-hana - Copy/workshop.html"><button class="sign"><i class="fa-solid fa-user"></i> Sign in</button></a>
+            <a href="../LOGIN/English/Login_page.html"><button class="login"><i class="fa-solid fa-right-to-bracket"></i> Log in</button></a>
+        </header>
+      
+    <div class="tu">
+        <h1>css Tutorial</h1>
+        <a href="lesson1 css.html"class="trans">lesson1</a><br><br>
+        <a href="lesson2 css.html"class="trans">lesson2</a><br><br>
+        <a href="lesson3 css.html"class="trans">lesson3</a><br><br>
+        <a href="lesson4 css.html"class="trans">lesson4</a><br><br>
+          
+    </div>
+    <div class="con0">
+        <h2>Lesson three</h2>
+        <a href="lesson2 css.html"><button class="we1">< previous </button></a>
+        <ul>
+            <li>1-display: grid:<br>
+                Grid display: to turn an element into a grid container<br>
+                <span class="span1">the style:</span> <br><br>
+                <div class="div"><span class="span3">.container{<ol>Display: grid;</ol>}</div></span><br>
+            </li>
+            <li><span class="span2"> Grid–template-rows:</span> property  defines the number and size of the rows in a grid layout, each of the values specifies the row height.
+                <span class="span3">
+                           <div class="div"> <br>.contaiainer{<ol>Display:grid; <br>grid- template- rows: 100px   300px;</ol>}</div>
+                        </span>
+                        <br>
+                <li><span class="span2"> Grid–template-columns:</span>The grid- template- columns property defines the size (width) of each columns in the grid layout.
+                    <span class="span3">
+                        <div class="div"> <br>.contaiainer{<ol>Display:grid; <br>grid- template- columns: 40px  150px  auto  80px;</ol>}</div>
+                    </span>
+                    <li><span class="span2"> Minimum and maximum size range:</span>You can constrict  the size range of a track by setting its minimum and maximum widths <br>
+                        using the minimax0 function in place of a specific track size.
+                        <span class="span3">
+                            <div class="div"> <br>.contaiainer{<ol>Display:grid; <br>grid-template-columns: 200px  minmax(15em , 45em) 200px;</ol>}</div>
+                        </span>
+                        
+                        <br> The grid shorthand property.<br>
+                        <span class="span3">
+                            <div class="div"> <br>.contaiainer{<ol>Display: grid; <br> grid: 100px  400px  100px  /  200px  1fr  200px; <br></ol>}</div>
+                        </span>
+                        <br>
+                    </li>
+                    <li>   
+                        2-positioning using lines: <br>
+                        The collection of these sources helps us identify the location easily,<br>
+                    and we can name the grid numbering the grid lines in both directions,<br>
+                    starting by setting the end of the grid column from 1 to -1. It is similar to setting it to 4. <br>
+                    In our example, which contains five elements, we want the element to cover The first one in the top row is to collect the three columns. <br>
+                    To do this, you use the first testicle.
+                    
+                      <div class="div"> <span class="span3"><br><br>#one{<ol>grid-row-start: 1;<br>grid-row-end: 2;<br>grid-column-start: 2;<br> grid-column-end: 4;</ol>}</div></span>
+                      If we skip the end line declaration, <br>
+                      the row will remain at its default height. Another way to achieve the result is to completely omit the end line declaration. <br>
+                      We can use the (span) keyword to specify the number of paths that the elements should cover. <br>
+                      
+                      <div class="div"> <span class="span3"><br><br>#one{<ol>grid-column-start: span1;<br>grid-column-end: span3;<br></ol>}</div> </span>
+                      
+                      <br><br>There is another testicle, grid-column, grid-row.<br>
+                      <div class="div">   <br><span class="span3">#one{<ol>grid-row: 1/ 2; <br> grid-column: 1/span3; </ol>}</span></div>
+                      3-Implicit grid behavior:<br>
+                      The grid adjusts itself by creating more rows and columns.<br>
+                      These new rows and columns are sized to fit the content by default.<br>
+                      Automatic grid properties add paths as needed.<br>
+                      
+                      <div class="div"> <span class="span3"><br><br>#one{<ol>grid-auto-columns: 100px;<br>grid-auto-rows: 100px;<br></ol>}</div></span>
+                    Use Automatic Grid Flow to specify whether you want items to flow by row or column.<br>
+                    
+                    <div class="div"> <span class="span3"><br><br>#one{<ol>grid-auto-flow: dense rows;<br></ol>}</div> </span>
+                    
+                <br><br>There is another testicle, grid-column, grid-row.<br>
+                <div class="div">   <br><span class="span3">#one{<ol>grid-row: 1/ 2; <br> grid-column: 1/span3; </ol>}</span></div>
+
+                <br>shorthand.<br> Rows come first, followed by columns. <br>
+                <span class="span3">
+                    <div class="div"> <br>#one{<ol>grid-auto-flow: 12em / repeat(5, 1fr) <br></ol>}</div>
+                </span>
+                <br>
+                <br>spacing and alignment:<br>There is a gap feature that creates a space between rows and columns.<br>
+                <span class="span3">
+                    <div class="div"> <br>#one{<ol>grid-gap: 20px 50px;<br> grid-row-gap: 20px; <br> grid-column-gap: 30px </ol>}</div>
+                </span>
+                <br>
+                <br>When you want the grid element to fill the entire grid area, specify inline alignment with the justify-self, <br>
+                and the align-self on block.<br>
+                <span class="span3">
+                    <div class="div"> <br>#one{<ol>justify-self: center;<br>align-self: center;<br> </ol>}</div>
+                </span>
+                <br>                
+            </li>
+            <a href="lesson4 css.html"><button class="next"> Next></button></a>
+        </ul>
+    </div>
+</body>
+</html>

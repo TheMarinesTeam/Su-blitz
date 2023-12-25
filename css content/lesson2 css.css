@@ -1,0 +1,103 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.css{
+    position: fixed;
+}
+.tu{
+    margin-top: 150px;
+    background-color:none;
+    padding: 10px;
+    border-radius: 10px;
+    height: 1000px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0px;
+}
+.trans{
+    
+    margin-left: 80px;
+    position: fixed;
+    transition: 400ms;
+}
+.trans:hover{
+background-color: blue;
+color: white;
+padding: 8px;
+border-radius: 5px;
+transition: 400ms;
+}
+.we1{
+    background-color: rgb(74, 74, 155);
+    border-radius: 5px;
+    padding: 10px 15px;
+cursor: grab;
+    color: aliceblue;
+}
+.we2{
+    background-color: rgb(34, 34, 126);
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+    color: aliceblue;
+
+}
+h3{
+    font-size: 30px;
+}
+.ht{
+    border-left: solid rgb(53, 53, 119);
+    background-color: white;
+    padding: 10px;
+}
+.con{
+    background-color: darkgrey;
+    padding: 15px;
+    border-radius: 8px;
+    width: 700px;
+    position: relative;
+    top: -885px;
+    left: 340px;
+}
+.con0{
+    position: relative;
+    top: -1000px;
+    left: 350px;
+}
+.next{
+    background-color: rgb(74, 74, 155);
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: grab;
+    color: aliceblue;
+    position: relative;
+    left: 500px;
+}
+.span1{
+    color: red;
+}
+.span2{
+    color: blue;
+}
+.span3{
+    color: rgb(169, 231, 141);
+    
+}
+h1{
+    color: aliceblue;
+}
+.span4{
+    color: coral;
+}
+.div{
+    background-color: #666;
+    border-left: solid blue 2px;
+    padding: 5px;
+    width: 200px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+nav{
+    color: black;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta thhp-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LESSON 2</title>
+  <link rel="stylesheet" href="l2.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- the Nav -->
+  <header class="header">
+    <img class="logo" src="../Our photos/White_logo.png" alt="logo">
+    <nav >
+        <ul class="nav_links">
+            <li><a href="../2-Homepage/div-cards.html"><i class ="fa fa-home"></i> Home</a></li>
+            <li><a href=""><i class="fa-solid fa-book" ></i> Community</a></li>
+            <li><a href="../3-About US/AboutUSPage.html"><i class="fa-regular fa-address-card"></i> About Us</a></li>
+            <li><a href="../4-Contact us/project.html"><i class="fa-solid fa-phone-volume"></i> Contact</a></li>
+        </ul>
+    </nav>
+    <a href="../form-hana - Copy/workshop.html"><button class="sign"><i class="fa-solid fa-user"></i> Sign in</button></a>
+    <a href="../LOGIN/English/Login_page.html"><button class="login"><i class="fa-solid fa-right-to-bracket"></i> Log in</button></a>
+</header>
+  <div class="row-lg-4 row-sm-4">
+    <div class="col-lg-10 col-sm-5">
+    <div class="p-3">
+      <div class="bord">
+        <h5>CONTENTS </h5>
+        <div class="content1">
+        <ul>
+            <li><a class="a1"  href="l.1.html">lesson 1</a></li>
+            <li><a class="a1" href="l.2.html">lesson 2</a></li>
+
+        </ul>
+      </div>
+    </div>
+    </div></div></div>
+  <div class="row-lg-4 row-sm-4">
+  <div class="col-lg-10 col-sm-5">
+    <div class="p-3">
+      <div style="margin-top: -20px;">
+  <b style="font-size: 25px;">Spacing :</b>
+  <p>Let's learn about the shortcuts for the properties responsible for space :
+    <ul>
+      <li>m - for classes that set margin</li>
+      <li>p - for classes that set padding</li>
+      <li>t - for classes that set margin-top or padding-top</li>
+      <li>b - for classes that set margin-bottom or padding-bottom</li>
+      <li>s - (start) for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL</li>
+      <li> e - (end) for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL</li>
+    </ul>
+  </p>
+  Now let's see how to use it in a small useful video :</p> <br><br>
+  <video style="margin-left: 450px;" src="07-59-56.mp4" autoplay controls width="500px" height="200px" ></video><br><br>
+<dl>Explanation of video :<dd>
+  I opened the Bootstrap website and looked for a template to apply to it. <br> I chose navbar, copied and pasted it into VS (don't forget to link your file to the files we talked about in Leeson 1), then pressed run, activated the inspect, and wrote inside nav :
+<br> mt-5 class = margin-top:5rem; .
+<br> p-5 = padding:5rem; .
+<br> bg-danger = background-color:red; .
+</dd></dl>
+<dl><b>Notes :</b><dd>
+  <ul>
+    <li>
+      <strong>rem is measure in bootstrap. <b>1rem = 16px. </b> </strong>
+    </li>
+    <li>
+      <strong>Classes use to design.</strong>
+    </li>
+    <li><strong>All property has a utilities .</strong></li>
+  
+  </ul> 
+</dd></dl><br></div></div></div><hr><br></div>
+<div class="row-lg-4 row-sm-4">
+  <div class="col-lg-10 col-sm-5">
+    <div class="p-3">
+
+<h3><strong>Page Layout </strong></h3>
+<p>What is page layout? <br>
+  It is to specify the sizes and layout of the page if the web is opened on a PC or phone.
+  It helps us organize the general appearance and arrangement of the page and prevent words and images from interfering with each other. Rather, everything has its place and remains in its shape no matter how small or large the display screen is.
+  The size of the pictures can be reduced or the words can be placed on another line, but they do not overlap. <br> </p>
+  <p>We already know this and used it in CSS in grid system and flexbox. So come with me, we use it in Bootstrap in a simple and better way.</p>
+<h4>2- Grid System : </h4>
+<p>Grid is made up of columns and rows that we use to plan the page. As we are accustomed to, every property has an abbreviation in Bootstrap so we can get to know it: 
+  <ul>
+    <li>To create row in Bootstrap you will write div class="row" </li>
+    <li>To create column in Bootstrap you will write div class="col" </li>
+    <li>To make a column or row yake a more than size , you can write : div class="row-3" , div class="col-3" . <br> you can change the number to you need.  </li>
+    <li><dl>You can control the display method according to the screen size :
+      <dd>
+Extra small (xs) ,
+Small (sm) ,
+Medium (md) , 
+Large (lg) ,
+Extra large (xl) and 
+Extra extra large (xxl).
+      </dd>
+    </dl></li></ul></p>
+
+<dl> Now let's see how to use it in a small useful videos : <dd>
+  <br>
+ <h5>Basic grid :</h5> <br> <br> <video  src="basicgrid.mp4" autoplay controls width="500px" height="200px" ></video>
+ <br><br>
+</dd></dl>
+<div class="rowsandc">
+<dl><b> Width of a Columns and Rows :</b> <br><br><br>
+  <dd><video  src="14-56-40.mp4" autoplay controls width="500px" height="200px" ></video></dd>
+</dl>
+</div>
+<h4>3- Flex Box :</h4>
+<p>Quickly manage the layout, alignment, and sizing of grid columns, navigation, components, and more with a full suite of responsive flexbox utilities. For more complex implementations, custom CSS may be necessary. utilities of flexbox :</p>
+<div class="flex" >
+<ul>
+  <li>d-flex</li>
+  <li>flex-row</li>
+  <li>flex-row-reverse</li>
+  <li>flex-column</li>
+  <li>flex-column-reverse  </li>
+</ul>
+</div>
+  <div class="justi">
+    <ul>
+  <li>justify-content-start</li>
+  <li>justify-content-end</li>
+  <li>justify-content-center</li>
+  <li>justify-content-between</li>
+  <li>justify-content-around</li>
+</ul>
+</div>
+<div class="align">
+  <ul>
+    <li>align-items-start</li>
+    <li>align-items-end</li>
+    <li>align-items-center</li>
+    <li>align-items-baseline</li>
+  </ul></div>
+
+  <div >
+
+    <dl><b><h5> Flexbox :</h5></b> <br><br>
+      <dd><video  src="16-32-21.mp4" autoplay controls width="500px" height="200px" ></video></dd>
+    
+    </div>
+  </div>
+  </div>
+</div>
+<hr>
+<div class="row-lg-4 row-sm-4">
+  <div class="col-lg-10 col-sm-5">
+    <div class="p-3">
+      <h5>5- Sizing</h5>
+      <p>Easily make an element as wide or as tall with our width and height utilities. <br> Includes support for 25%, 50%, 75%, 100%, and auto by default. <br> Modify those values as you need to generate different utilities here.</p>
+      <p>You can also use max-width: 100%; and max-height: 100%; utilities as needed.</p><p>Workshop :</p>
+      <br><br><video src="sizingboo.mp4" autoplay controls height="200" width="500px"></video> 
+    </div></div></div>
+
+    <br><dl style="margin-left: 450px;"> <H5>Test Your Knowledge :</H5> <br>
+        
+      <dd><img class="task"   src="CSS-layout-4.png" alt="" height="200px" width="500px"></dd>
+    </dl> 
+
+</body>
+</html>
